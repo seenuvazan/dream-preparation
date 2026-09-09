@@ -5,3 +5,13 @@ class Solution {
             nums[i] = nums[i] + nums[i-1];
             }
     return nums;
+
+
+/*
+Complexity Analysis:
+Time Complexity: O(N)
+Reason: A single linear loop traverses the array from index 1 to N - 1 once.
+ 
+Space Complexity: O(1) Auxiliary Space
+Reason: The solution mutates the input array in-place without allocating extra heap memory
+*/
