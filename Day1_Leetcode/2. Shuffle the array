@@ -16,3 +16,9 @@ class Solution {
         return result;
     }
 }
+
+/*
+Complexity:
+ Time:  O(n) -> 1 loop runs n times to place all elements.
+ Space: O(n) -> 1 new array of size 2*n to store output.
+*/
