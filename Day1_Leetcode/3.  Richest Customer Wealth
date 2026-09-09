@@ -11,3 +11,9 @@ class Solution {
         return rich;
     }
 }
+
+/*
+Complexity:
+ Time:  O(m * n) -> Must check every bank balance across m customers & n banks.
+ Space: O(1)     -> Uses only two variables (sum and maxWealth), zero extra arrays.
+ */
