@@ -1,3 +1,10 @@
 INSERTION:
 Insertion means adding a new element at a particular position in an array. Existing elements may need to be shifted to the right.
 
+CODE:
+int[] arr = {10, 20, 30, 40};
+
+arr[2] = 25;
+
+OUTPUT:
+10 20 25 40
