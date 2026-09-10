@@ -8,3 +8,6 @@ int[] arr = {10, 20, 30, 40, 50};
 arr[2] = 35;
 
 System.out.println(arr[2]);
+
+OUTPUT:
+35
