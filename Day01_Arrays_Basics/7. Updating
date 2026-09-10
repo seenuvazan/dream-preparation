@@ -1,0 +1,10 @@
+UPDATING:
+Updating means changing the value of an existing element in an array.
+
+
+CODE:
+int[] arr = {10, 20, 30, 40, 50};
+
+arr[2] = 35;
+
+System.out.println(arr[2]);
