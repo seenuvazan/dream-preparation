@@ -18,6 +18,11 @@ class Solution(object):
             
             if total_sum // total_count == node.val:
             self.matching_nodes += 1
+         
+return total_sum, total_count
+        
+     
+
                 
             
               
