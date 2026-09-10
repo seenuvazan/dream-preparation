@@ -1,4 +1,9 @@
 ACCESSING:
 Accessing means retrieving an element from an array using its index
 
+CODE:
+int[] arr = {10, 20, 30, 40, 50};
+
+System.out.println(arr[3]);
+
 
