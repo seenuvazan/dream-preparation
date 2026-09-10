@@ -17,4 +17,7 @@ class Solution(object):
             total_count = left_count + right_count + 1
             
             if total_sum // total_count == node.val:
+            self.matching_nodes += 1
+                
+            
               
