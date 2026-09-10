@@ -1,0 +1,3 @@
+Array Declaration:
+Declaration means creating a reference variable that can store an array.
+int[] arr;
