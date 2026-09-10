@@ -1,3 +1,9 @@
 DELETION:
 Deletion means removing an element from a specific position in an array.
 
+CODE:
+int[] arr = {10, 20, 30, 40};
+
+for (int i = 2; i < arr.length - 1; i++) {
+    arr[i] = arr[i + 1];
+}
