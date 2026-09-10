@@ -1,3 +1,8 @@
 Array Declaration:
 Declaration means creating a reference variable that can store an array.
 int[] arr;
+
+
+Array Initialization:
+Initialization means assigning values to the elements of an array.
+int[] arr = {10, 20, 30, 40, 50};
