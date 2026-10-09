@@ -1,0 +1,38 @@
+class Solution {
+    public int kthSmallest(int[][] matrix, int k) {
+        int n = matrix.length;
+        int low = matrix[0][0];
+        int high = matrix[n - 1][n - 1];
+
+        while (low < high) {
+            // Avoid overflow with negative values
+            int mid = low + (high - low) / 2;
+            
+            if (countLessEqual(matrix, mid, n) < k) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+
+        return low;
+    }
+
+    private int countLessEqual(int[][] matrix, int mid, int n) {
+        int count = 0;
+        int row = n - 1;
+        int col = 0;
+
+        // Staircase walk from bottom-left
+        while (row >= 0 && col < n) {
+            if (matrix[row][col] <= mid) {
+                count += (row + 1);
+                col++;
+            } else {
+                row--;
+            }
+        }
+
+        return count;
+    }
+}
